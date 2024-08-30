@@ -14,6 +14,5 @@
 
 
 <br>
-<img src=/img/springBoot.png>
 </body>
 </html>
