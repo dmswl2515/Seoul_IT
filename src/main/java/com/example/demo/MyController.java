@@ -17,13 +17,18 @@ public class MyController
 		return "test1";			//실제 호출 될 /WEB-INF/views/test1.jsp
 	}
 	
-	@RequestMapping("/test2")	//localhots:8081/test1
+	@RequestMapping("/test2")	
 	public @ResponseBody String test2() {
-		return "test2";			//실제 호출 될 /WEB-INF/views/test1.jsp
+		return "test2";			
 	}
 	
-	@RequestMapping("/test3")	//localhots:8081/test1
+	@RequestMapping("/test3")	
 	public String test3() {
-		return "test3";			//실제 호출 될 /WEB-INF/views/test1.jsp
+		return "test3";			
+	}
+	
+	@RequestMapping("/test4")	
+	public String test4() {
+		return "test4";			
 	}
 }
