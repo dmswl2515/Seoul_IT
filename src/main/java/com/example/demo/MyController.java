@@ -22,4 +22,8 @@ public class MyController
 		return "test2";			//실제 호출 될 /WEB-INF/views/test1.jsp
 	}
 	
+	@RequestMapping("/test3")	//localhots:8081/test1
+	public String test3() {
+		return "test3";			//실제 호출 될 /WEB-INF/views/test1.jsp
+	}
 }
